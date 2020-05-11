@@ -1,6 +1,8 @@
 <?php
-$phrase = 'chaine de caractère';
-$phrase2 = 'seconde chaine de caractère';
+function text ($phrase,$element)
+{
+return $phrase.' '. $element;
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -10,7 +12,7 @@ $phrase2 = 'seconde chaine de caractère';
 </head>
 <body>
 <?php
-echo $phrase .' '. $phrase2;
-?>
+$word = texte ('ceci est une chaine de caractères.','ceci est une seconde chaine de caractères');?>
+<p><?php echo $word;?></p>
 </body>
 </html>
