@@ -1,6 +1,6 @@
 <?php
 $phrase = 'chaine de caractère';
-$longueur = strlen($phrase);
+$phrase2 = 'seconde chaine de caractère';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -10,7 +10,7 @@ $longueur = strlen($phrase);
 </head>
 <body>
 <?php
-echo $phrase .' '. $longueur;
+echo $phrase .' '. $phrase2;
 ?>
 </body>
 </html>
